@@ -1,0 +1,64 @@
+
+.nav-container {
+    width: 100%;
+    line-height: 1.5;
+    background-color: #0c541f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 26px;
+}
+
+.second-container {
+    margin-right: 26px;
+}
+
+.reeco {
+    font-family: 'Lucida Sans';
+    color: #ffffff;
+    margin-right: 13px;
+    font-weight: bold;
+}
+
+.cart {
+    color: #ffffff;
+}
+
+.header-components {
+    color: #eeeee4;
+    font-family: "Roboto";
+    margin-right: 13px;
+}
+
+.header-select {
+    background-color: transparent;
+    border: none;
+    color: #eeeee4;
+}
+
+@media (min-width: 768px) {
+    .first-container {
+        margin-left: 50px;
+    }
+    .second-container {
+        margin-right: 50px;
+    }
+    .header-components {
+        margin-right: 28px;
+    }
+    .reeco {
+        margin-right: 28px;
+    }
+    .cart {
+        margin-right: 23px;
+    }
+}
+

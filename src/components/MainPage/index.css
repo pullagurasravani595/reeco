@@ -1,0 +1,119 @@
+
+.small-table-heading {
+    color: #948584;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.small-heading-description {
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.small-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 140px;
+}
+
+.small-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8px;
+    border: 1px solid gray;
+    margin-top: 25px;
+    width: 90%;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.small-line {
+    height: 100%;
+}
+
+.req-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-second-container {
+    background-color: transparent;
+    width: 92%;
+    height: auto;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+}
+
+.banner-search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.search-icon {
+    width: 10px;
+    height: 10px;
+}
+
+.search-input {
+    border: 1px solid gray;
+    border-radius: 6px;
+    line-height: 1.5;
+}
+
+.button {
+    line-height: 1.5;
+    width: auto;
+    border: 1px solid #1d3d0b;
+    color: #1d3d0b;
+    background-color: transparent;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.print-icon {
+    color: #1d3d0b;
+    margin-right: 20px;
+}
+
+.product-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    margin: 12px;
+    padding-left: 30px;
+    padding-right: 60px;
+    height: 40px;
+}
+
+.un-order-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .product-view {
+        padding-left: 70px;
+        padding-right: 160px;
+    }
+}
+
